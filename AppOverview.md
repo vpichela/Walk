@@ -14,7 +14,7 @@ You shld dig around some more
 to decide what is best for project. But yeah I think you could just use firebase to connect everything.
 It has a lot of extensions ig. 
 I can update and assist with the design for backend, APIs, Databases. Still need to finalize these three.
-Will wait on your edits.
+Will wait on your edits. 
 
 Delete these texts :')
 
@@ -27,6 +27,8 @@ firebase, spring ()
 or 
 
 firebase for back-end too? (Simpler)
+
+Ok there are like so many tools to develop this. I'd suggest do what u rlly want to learn.
 
 Ideas:
 -----
@@ -101,7 +103,7 @@ Logic:
 
   find all the users walking in same direction around the same time
     - User destination and time selection input in the search bar.
-      Will be verified by some location API and saved in database.
+      desdtination will be verified by some location API and saved in database.
       
   show all the options(people matched)
     - People matched on criteria of their input for time and destination. 
@@ -114,13 +116,13 @@ Logic:
   user can choose person/people to walk with
     - Backend forwards list of matches to UI. 
       Decide how its gonna be displayed on maps page. 
-      User chooses person.
+      User chooses person from list.
+      updated in database that person has been matched.
+      matched pple can be further matched with pple with no walking buddies?
       
   
   all the perties are notified
-    - once user selects person.
-
-hmmm r we trynn have multiple people walking together or only pairs.??
+    - Using database lookup every person that is matched will recieve a notification.
 
 
 Spring & Swift & firebase or swift & Firebase??????
@@ -157,14 +159,28 @@ Instead if you wanna embed maps into App Acitivity Page using Apple's API (shld 
 Databases:
 ------
 
-Goal: To Authenticate user after registration (& select time??)
+Goal: To Authenticate user after registration (& select time??) 
 
 1. Storing Login Information 
 2. Storing user live location in real time through firebase.
 3. Database lookup?? Hmm IDEK
 4. I have no experience.. Varshika🙄 this is ur domain … jk did some research. 
 5. Firebase NoSQL Database? This lets you store and sync data between users in real time.
-Will be perfect for matches which is dependent on destination of user and their preferred time.
+Will be perfect for notifications and when user checks in or out.
+
+Brsainstorm what we else we might need to store here.
+
+For every unique user identified by their unique usernames.
+
+User checks in/check our status?
+
+Destination entry?
+
+Time entry?
+
+Another status entry if user is matched with someone. Should those matched pple be paired with other unmatched pple?
+Assuming that matched pple can be paired with other additional pple assuming same destination and abt same time.
+
 
 Web App Hosting:
 ------
