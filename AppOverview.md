@@ -94,7 +94,9 @@ Login Activity
 App Activity
 1. Connect to API endpoint url to get user live location data. Return info to UI App Activity Page and show marker.
 2. Save live user location data in database under users id in database. 
+
 #2 Do we need to keep track of user location in database?
+
 Yes.. what if they never check out keep updating user location in database... 
 If checked out, delete record of user location.
 
@@ -102,23 +104,31 @@ If checked out, delete record of user location.
 Logic:
 
   find all the users walking in same direction around the same time
+  
     - User destination and time selection input in the search bar.
-      desdtination will be verified by some location API and saved in database.
+      destination will be verified by some location API and saved in database.
       
   show all the options(people matched)
-    - People matched on criteria of their input for time and destination. 
-    - use backend to retrieve this info from database and make list of all possible matches
-      from matching criterias of user Ids.
-      
-      If no available exact matches in database, 
-      Can Make Exception for returning "No walking buddies in the Area" (Up to u? )
+       
+       - People matched on criteria of their input for time and destination.
+       
+       - use backend to retrieve this info from database and make list of all possible matches
+       from matching criterias of user Ids.
+       
+      - If no available exact matches in database, 
+         Can Make Exception for returning "No walking buddies in the Area" (Up to u? )
       
   user can choose person/people to walk with
-    - Backend forwards list of matches to UI. 
-      Decide how its gonna be displayed on maps page. 
-      User chooses person from list.
-      updated in database that person has been matched.
-      matched pple can be further matched with pple with no walking buddies?
+  
+       - Backend forwards list of matches to UI. 
+       
+       - Decide how its gonna be displayed on maps page. 
+       
+       - User chooses person from list.
+       
+       - updated in database that person has been matched.
+   
+         matched pple can be further matched with pple with no walking buddies?
       
   
   all the perties are notified
