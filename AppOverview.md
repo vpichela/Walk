@@ -6,7 +6,7 @@ Feel Free to make changes and updates over here as you build your project.
 Gave you the gist. I try :'(
 U should have asked them snobs :'(
 Haven't finalized on backend for you.
-Not sure abt whether backend and database are the best tools rn.
+Not sure abt which backend and database are the best tools rn.
 firebase SDk is ghetto for spring boot. You could just use firebase for backend tbh. 
 Bcz it has REST functionality to make calls to APIs. 
 I'm srry I couldn't finalize your backend and database. I havent worked with spring boot or firebase.
@@ -18,10 +18,21 @@ Will wait on your edits.
 
 Delete these texts :')
 
+So,
+
+back-end-> 
+
+firebase, spring ()
+
+or 
+
+firebase for back-end too? (Simpler)
+
 Ideas:
 -----
 
 Have search bar and time selection on different page than map page.
+We could require users to give a specifc format like how they input destination and time. (Any other way u want to do?)
 Collect those and store in database.
 Use backend logic to figure out user matching and party notification.
 Here three pages in web app. 
@@ -29,7 +40,7 @@ Here three pages in web app.
 Basic Gist
 
 1) Login
-2) search bar for user destination & time selection. Extract user response & store in database (criteria for matching? Anything else?)
+2) search bar for user destination & time selection . Extract user response & store in database (criteria for matching? Anything else?) 
 3) Map Page with user live location and Buddy live location shared once match is approved.
    
 
@@ -109,10 +120,10 @@ Logic:
   all the perties are notified
     - once user selects person.
 
-hmmm r we trynn have multiple people or pairs.??
+hmmm r we trynn have multiple people walking together or only pairs.??
 
 
-Spring & Swift or swift & Firebase
+Spring & Swift & firebase or swift & Firebase??????
 
 
 API:
